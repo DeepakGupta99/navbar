@@ -1,0 +1,84 @@
+/* h1{
+    display: inline;              Allowing the content in same line but not allowing custom width
+    background-color: aqua;
+    
+    width: 300px;
+}
+a{
+    display: block;              Allowing the content in differen line and allowing custom width
+    background-image: linear-gradient(red,hotpink);
+    width: 300px;
+}
+
+p{
+    background-color:hotpink;
+    width: 400px;
+    display: inline-block;     It will allow content in same line and allow custom width also
+}
+
+body{
+    display: flex;        It will place all the content in same line 
+    justify-content: baseline;     
+    justify-content: center;       If we want to center all the contents
+    justify-content: space-between;          If we want to give space between all the elements
+    align-items: center;
+    height: 500px;
+} */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:gray;
+    padding: 20px 50px;
+   
+}
+
+body{
+    margin: 0px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+   background-color:blueviolet;
+   padding: 20px;
+   margin-top: 10px;
+}
+
+#left{
+    display: flex;
+    gap: 30px;
+}
+
+#center{
+    display: flex;
+    gap: 30px;
+}
+#right{
+    display: flex;
+    gap: 30px;
+}
+a:hover{
+    
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:aqua;
+    padding: 10px;;
+    margin-top: 10px;
+}
+.container{
+    display:flex;
+    gap:20px;
+
+}
